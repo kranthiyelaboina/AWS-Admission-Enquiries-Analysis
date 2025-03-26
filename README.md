@@ -3,7 +3,7 @@
 
 This repository contains a detailed project that analyzes admission inquiries using AWS services. The project has been updated to use the `students_data.csv` file, which contains synthetic data for students’ admission inquiries. All instructions, AWS configurations, and SQL commands have been updated to suit the new data structure.
 
-![Project Workflow](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/a98cfe2a51d55b4b24fc2d381a0af6ccb6e889fd/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/Admission-project.drawio.png)
+![Project Workflow](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/c85ebe2c285b9ff3330033a61f8a3a932e8f0f92/Project_PNG/Admission-project.drawio.png)
 
 ---
 
@@ -63,7 +63,7 @@ This guide details the end-to-end process—from uploading data to AWS S3 to set
    - Upload the `students_data.csv` file into the newly created S3 bucket.
    - Verify the upload via the AWS S3 console.
 
-![Bucket Uploaded Successfully](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/58cee988f7e1d1419d95d9f152515d4b0f804056/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/AWS%20S3.png)
+![Bucket Uploaded Successfully](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/369f209674fb27dc906f07e5e8c05321eecf010f/Project_PNG/Screenshot%20(44).png)
 
 ---
 
@@ -84,7 +84,7 @@ This guide details the end-to-end process—from uploading data to AWS S3 to set
    - Run the crawler to catalog the schema.
    - Confirm that a table (e.g., `students_data`) is created in the `admission_db` database with the proper schema reflecting the columns in `students_data.csv`.
 
-![Glue Crawler](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/58cee988f7e1d1419d95d9f152515d4b0f804056/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/AWS%20GlueCraw1.png)
+![Glue Crawler](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/369f209674fb27dc906f07e5e8c05321eecf010f/Project_PNG/Screenshot%20(45).png)
 
 ---
 
@@ -129,7 +129,7 @@ This guide details the end-to-end process—from uploading data to AWS S3 to set
    );
    ```
 
-   ![Table Creation](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/a98cfe2a51d55b4b24fc2d381a0af6ccb6e889fd/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/AWS%20RQ1.png)
+   ![Table Creation](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/369f209674fb27dc906f07e5e8c05321eecf010f/Project_PNG/Screenshot%20(46).png)
 
 5. **Load Data from S3 into Redshift:**
 
@@ -142,7 +142,7 @@ This guide details the end-to-end process—from uploading data to AWS S3 to set
    FORMAT AS CSV IGNOREHEADER 1;
    ```
 
-   ![Data Loading](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/a98cfe2a51d55b4b24fc2d381a0af6ccb6e889fd/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/AWS%20RQ3.png)
+   ![Data Loading](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/369f209674fb27dc906f07e5e8c05321eecf010f/Project_PNG/Screenshot%20(47).png)
 
 6. **Verify Data Load:**
 
@@ -220,8 +220,8 @@ Feel free to modify these queries further to suit more specific analysis require
 
    After selecting and preparing the dataset, click **Save & Visualize** to begin creating interactive dashboards.
 
-![Bar Plot](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/a98cfe2a51d55b4b24fc2d381a0af6ccb6e889fd/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/Box%20plot.png)
-![Stacked Bar Chart](https://github.com/Pranith1Kumar/AWS-for-beginners/blob/e3fb163176766206d1200dc21e43761587991271/Data%20Analytics%20on%20AWS/Admission%20Enquiries%20Analysis/Project_png/stacked%20bar.png)
+![Bar Plot](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/369f209674fb27dc906f07e5e8c05321eecf010f/Project_PNG/Screenshot%20(48).png)
+![Stacked Bar Chart](https://github.com/kranthiyelaboina/AWS-Admission-Enquiries-Analysis/blob/369f209674fb27dc906f07e5e8c05321eecf010f/Project_PNG/Screenshot%20(49).png)
 
 ---
 
