@@ -72,7 +72,7 @@ This guide details the end-to-end process—from uploading data to AWS S3 to set
 1. **Create an AWS Glue Crawler:**
 
    - Navigate to AWS Glue → Crawlers → Click *Add Crawler*.
-   - Name the crawler (e.g., `admission_crawler`).
+   - Name the crawler (e.g., `student_crawler`).
    - Set the data store to S3 and provide the path:
      ```
      s3://admission-enquiries-data/
