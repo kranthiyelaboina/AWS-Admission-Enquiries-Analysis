@@ -48,8 +48,8 @@ This guide details the end-to-end process—from uploading data to AWS S3 to set
      - **Admission_Enquiry:** Type of enquiry (e.g., BTech, MTech)
 
 2. **Generating/Validating Data:**
-   - If you are creating your own synthetic dataset, ensure it has at least 8000 records with the above attributes.
-   - Use tools like Python, Excel, or any data generation utility to build the dataset.
+   - If you are creating your own synthetic dataset, ensure it has at least 10,000 records with the above attributes.
+   - Use tools like Python Pandas, Excel, or any data generation utility to build the dataset.
 
 ---
 
