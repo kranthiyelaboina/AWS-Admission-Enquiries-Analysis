@@ -236,7 +236,3 @@ git commit -m "Initial commit of Admission Inquiry Analysis project with updated
 git remote add origin <repository-url>
 git push -u origin main
 ```
-
-Replace `<repository-url>` with the URL of your GitHub repository.
-
----
